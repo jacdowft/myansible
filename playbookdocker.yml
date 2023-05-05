@@ -6,7 +6,7 @@
   - name: install tomcat
     apt: name=tomcat9 state=present
   - name: start tomcat
-    service: name=tomcat state=started
+    service: name=tomcat9 state=started
   - name: install docker
     apt: name=docker state=present
   - name: start docker
