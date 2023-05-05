@@ -1,4 +1,4 @@
-[webservers]
-172.31.34.128 ansible_user=edureka
+[kslave1]
+172.31.22.234 ansible_user=edureka
 
 
